@@ -1,7 +1,7 @@
 from the super class list.
 ``MyList`` Module
 
-This module contains the constructor for the subclass MyList which inherits
+This module contains the constructor for the subclass MyList which inheritss
 
 ``Using MyList.print_sorted``
 
