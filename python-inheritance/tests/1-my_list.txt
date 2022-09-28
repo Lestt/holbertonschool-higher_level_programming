@@ -26,10 +26,6 @@ Checking for sublcass:
 	>>> issubclass(MyList, list)
 	True
 
-Empty List:
-	 >>> my_list = MyList()
-	 >>> my_list.print_sorted()
-	 []
 
 Append to list:
 	>>> my_list.append(4)
