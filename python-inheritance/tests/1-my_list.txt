@@ -7,21 +7,6 @@ Using ``MyList``
 Import module:
 	>>> MyList = __import__('1-my_list').MyList
 
-Checking for module documentation:
-	 >>> mod = __import__("1-my_list").__doc__
-	 >>> len(mod) > 1
-	 True
-
-Checking for class documentation:
-	 >>> func = __import__("1-my_list").MyList.__doc__
-	 >>> len(func) > 1
-	 True
-
-Checking for method documentation:
-	 >>> mtd = __import__("1-my_list").MyList.print_sorted.__doc__
-	 >>> len(mtd) > 1
-	 True
-
 Checking for sublcass:
 	>>> issubclass(MyList, list)
 	True
