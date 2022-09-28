@@ -1,14 +1,8 @@
-from the super class list.
-``MyList`` Module
+The ``1-my_list`` module
+========================
 
-This module contains the constructor for the subclass MyList which inheritss
-
-``Using MyList.print_sorted``
-
-``var_name = MyList()`` The constructor builds a list object. This object
-inherits all methods from the list class but has a new public method
-print sorted. This takes the list of integers and sorts ascending
-``var_name.print_sorted()``
+Using ``MyList``
+-----------------
 
 Import module:
 	>>> MyList = __import__('1-my_list').MyList
