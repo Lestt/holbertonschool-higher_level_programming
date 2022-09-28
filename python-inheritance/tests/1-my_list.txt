@@ -7,14 +7,11 @@ Using ``MyList``
 Import module:
 	>>> MyList = __import__('1-my_list').MyList
 
+Completing Tests:
+
 Checking for sublcass:
 	>>> issubclass(MyList, list)
 	True
-
-Checking for method documentation:
-	 >>> mtd = __import__("1-my_list").MyList.print_sorted.__doc__
-	 >>> len(mtd) > 1
-	 True
 
 Empty List:
 	 >>> my_list = MyList()
