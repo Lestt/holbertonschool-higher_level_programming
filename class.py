@@ -1,0 +1,44 @@
+class User:
+    def __init__(self, id=1):
+        print("__init__")
+        self.id = id
+
+    @property
+    def id(self):
+        print("Getter")
+        return self.__id
+
+    @id.setter
+    def id(self, id):
+        print("Setter")
+        self.__id = id
+
+
+class People:
+    id = 1
+
+    def __init__(self, id):
+        self.id = id
+
+
+u = User(42)
+#print(f"Should be 42: {u.id}")
+
+###print(f"Should be 50: {u.__id}")
+u.__id = 50
+print(f"Should be 50: {u.id}")
+
+
+
+
+#print(f"Should be 42: {u.id}")
+
+#z = User(55)
+#print(f"{z.id}")
+
+
+p1 = People(42)
+print(p1.id)
+
+
+print(People.id)
