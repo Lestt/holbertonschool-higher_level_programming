@@ -26,8 +26,8 @@ Checking for sublcass:
 	>>> issubclass(MyList, list)
 	True
 
-
 Append to list:
+	>>> my_list = MyList()
 	>>> my_list.append(4)
 	>>> my_list.append(2)
 	>>> my_list.append(3)
